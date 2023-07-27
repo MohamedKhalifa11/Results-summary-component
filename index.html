@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+  </head>
+
+  <body>
+    <div class="resultandsummary">
+      <div class="row">
+        <!-- Your Result -->
+        <div class="result text-center pt-4 pb-4 col-lg-6">
+          <h5 class="text-white-50 pb-2">Your Result</h5>
+          <div class="score pt-4 m-auto">
+            <p class="text-light mb-0 fs-1 fw-bold">76</p>
+            <p class="text-white-50">of 100</p>
+          </div>
+          <p class="text-light fs-4 mb-3 mt-3">Great</p>
+          <p class="text-white-50 px-3">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <!-- Your Summary -->
+        <div class="summary pt-4 pb-4 col-lg-6">
+          <p class="fw-bold mx-3">Summary</p>
+          <div class="status d-grid gap-3 mx-3">
+            <div class="reaction position-relative py-2">
+              <img class="px-2" src="/assets/images/icon-reaction.svg" alt="" />
+              <p class="d-inline">Reaction</p>
+              <p class="d-inline position-absolute secondp">80 / 100</p>
+            </div>
+            <div class="memory position-relative py-2">
+              <img class="px-2" src="/assets/images/icon-memory.svg" alt="" />
+              <p class="d-inline">Memory</p>
+              <p class="d-inline position-absolute secondp">92 / 100</p>
+            </div>
+            <div class="verbal position-relative py-2">
+              <img class="px-2" src="/assets/images/icon-verbal.svg" alt="" />
+              <p class="d-inline">Verbal</p>
+              <p class="d-inline position-absolute secondp">61 / 100</p>
+            </div>
+            <div class="visual position-relative py-2">
+              <img class="px-2" src="/assets/images/icon-visual.svg" alt="" />
+              <p class="d-inline">Visual</p>
+              <p class="d-inline position-absolute secondp">72 / 100</p>
+            </div>
+            <div class="btn rounded-pill text-light mt-3 py-2">Continue</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
